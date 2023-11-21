@@ -1,0 +1,139 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+	max-width: 1366px;
+	margin: auto;
+	height: auto;
+}
+
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: repeat (9,1fr);
+}
+
+.Header
+{
+	width: 1366px;
+	height: 200px;
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	margin: auto;
+	background-image: linear-gradient(#ffa600, #fff200);
+}
+
+.Header img
+{
+	margin-left: 590px;
+	width: 25%;
+	margin-bottom: 30px;
+}
+
+.NavBar
+{
+	margin-top: -50px;
+	z-index: 2;
+	margin-left: 370px;
+}
+
+/* Style the navigation bar links */
+.NavBar a 
+{
+  display: flex-column;
+  height: 100px;
+  color: #e63538;
+  font-family: Arial;
+  font-size: 24px; 
+  text-align: center;
+  padding: 15px;
+  font-weight: bold;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.NavBar a:hover
+{
+	color: #ff0004;
+	text-decoration: underline;
+}
+
+.Footer
+{
+	display: flex;
+	justify-content: space-between;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 100%;
+	height: 300px;
+	margin: auto;
+	background-image: linear-gradient(#ffa600, #fff200);
+	margin-top: 70px;
+}
+
+.Location1
+{
+	font-size: 24px;
+	color: #e63538;
+	font-weight: bold;
+	position: absolute;
+	left: 90px;
+	top: 66px;
+}
+
+.Location2
+{
+	font-size: 24px;
+	color: #e63538;
+	font-weight: bold;
+	position: absolute;
+	left: 390px;
+	top: 66px;
+}
+
+.Location3
+{
+	font-size: 24px;
+	color: #e63538;
+	font-weight: bold;
+	position: absolute;
+	left: 680px;
+	top: 66px;
+}
+
+.Follow
+{
+	font-size: 24px;
+	color: #e63538;
+	font-weight: bold;
+	position: absolute;
+	left: 1150px;
+	top: 66px;
+}
+
+.Facebook img
+{
+	width: 4%;
+	position: absolute;
+	left: 1176px;
+	top: 106px;
+}
+
+.Policy
+{
+	font-size: 20px;
+	position: absolute;
+	top: 260px;
+	font-weight: bold;
+	left: 150px;
+}

@@ -1,0 +1,311 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+	max-width: 1366px;
+	margin: auto;
+	height: auto;
+	font-family: Arial;
+}
+
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: repeat (9,1fr);
+}
+
+.Banner img
+{
+	width: 100%;
+}
+
+.ContentOne
+{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 1366px;
+	height: 200px;
+	margin: auto;
+	background-color: white;
+}
+
+input[type=text] 
+{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 3px solid #fff200;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus 
+{
+  border: 3px solid #fff200;
+}
+
+.ContentTwo
+{
+	display: flex;
+	justify-content: flex-wrap;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 1366px;
+	height: 800px;
+	margin: auto;
+	flex-wrap: wrap;
+	margin-top: 20px;
+}
+
+.ContentTwo h1
+{
+	font-size: 70px;
+	margin-top: -30px;
+	color: #e63538;
+	-webkit-text-stroke: 1px #fff200;
+	width: 100%;
+	margin-left: 500px;
+}
+
+.Image1 img
+{
+	width: 45%;
+	margin-top: 20px;
+	border-radius: 25px;
+	border: 12px solid #fff200;
+}
+
+.Image2 img
+{
+	position: absolute;
+	left: 980px;
+	top: 140px;
+}
+
+.ContentTwo p
+{
+	font-size: 30px;
+	margin-left: 700px;
+	margin-top: -760px;
+}
+
+.ButtonLink
+{
+	margin-left: 700px;
+	margin-top: -550px;
+}
+
+.button1
+{
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 
+{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.button1:hover
+{
+	background-color: #fff200;
+}
+
+.Image3 img
+{
+	position: absolute;
+	top: 600px;
+}
+
+.Image4 img
+{
+	position: absolute;
+	top: 530px;
+	left: 1200px;
+}
+
+.ContentThree
+{
+	display: flex;
+	justify-content: flex-wrap;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 1366px;
+	height: 1332px;
+	margin: auto;
+	flex-wrap: wrap;
+	background-color: white;
+	margin-top: 10px;
+}
+
+.ContentThree h1
+{
+	font-size: 70px;
+	color: #e63538;
+	-webkit-text-stroke: 1px #fff200;
+	position: absolute;
+	top: 0px;
+	left: 400px;
+}
+
+.Brand1 img
+{
+	position: absolute;
+	top: 100px;
+	width: 30%;
+}
+
+.Brand1 :hover
+{
+	top: 80px;
+}
+
+.Brand2 img
+{
+	position: absolute;
+	top: 140px;
+	width: 30%;
+	left: 460px;
+}
+
+.Brand2 :hover
+{
+	top: 120px;
+}
+
+.Brand3 img
+{
+	position: absolute;
+	top: 110px;
+	width: 30%;
+	left: 950px;
+}
+
+.Brand3 :hover
+{
+	top: 80px;
+}
+
+.Brand4 img
+{
+	position: absolute;
+	top: 380px;
+	width: 30%;
+}
+
+.Brand4 :hover
+{
+	top: 360px;
+}
+
+.Brand5 img
+{
+	position: absolute;
+	top: 410px;
+	width: 30%;
+	left: 460px;
+}
+
+.Brand5 :hover
+{
+	top: 390px;
+}
+
+.Brand6 img
+{
+	position: absolute;
+	top: 420px;
+	width: 30%;
+	left: 950px;
+}
+
+.Brand6 :hover
+{
+	top: 400px;
+}
+
+.Brand7 img
+{
+	position: absolute;
+	top: 680px;
+	width: 30%;
+}
+
+.Brand7 :hover
+{
+	top: 660px;
+}
+
+.Brand8 img
+{
+	position: absolute;
+	top: 680px;
+	width: 30%;
+	left: 460px;
+}
+
+.Brand8 :hover
+{
+	top: 660px;
+}
+
+.Brand9 img
+{
+	position: absolute;
+	top: 680px;
+	width: 30%;
+	left: 950px;
+}
+
+.Brand9 :hover
+{
+	top: 660px;
+}
+
+.Brand10 img
+{
+	position: absolute;
+	top: 1000px;
+	width: 30%;
+}
+
+.Brand10 :hover
+{
+	top: 980px;
+}
+
+.Brand11 img
+{
+	position: absolute;
+	top: 1000px;
+	width: 30%;
+	left: 950px;
+}
+
+.Brand11 :hover
+{
+	top: 980px;
+}
+
+

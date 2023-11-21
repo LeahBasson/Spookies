@@ -1,0 +1,179 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+	max-width: 1366px;
+	margin: auto;
+	height: auto;
+	font-family: Arial;
+}
+
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: repeat (9,1fr);
+}
+
+.Banner img
+{
+	width: 100%;
+}
+
+.ContentOne
+{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 1366px;
+	height: 800px;
+	margin: auto;
+	background-color: white;
+}
+
+.ContentOne form
+{
+	width: 38%;
+	height: 650px;
+	border: 3px solid #e87c1b;
+	position: absolute;
+	left: 80px;
+}
+
+h1
+{
+	font-size: 22px;
+	text-align: center;
+	margin-top: 20px;
+	color: #e87c1b;
+}
+
+input[type=text] 
+{
+  width: 84%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+}
+
+input[type=text]:focus 
+{
+  border: 1px solid #e87c1b;
+}
+
+textarea 
+{
+  width: 84%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  outline: none;
+  margin-left: 42px;
+  margin-top: 30px;
+  height: 120px;
+}
+
+textarea:focus 
+{
+  border: 1px solid #e87c1b;
+}
+
+.ButtonLink
+{
+	position: absolute;
+	top: 560px;
+	left: 200px;
+}
+
+.button1
+{
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 
+{
+  background-color: white;
+  color: black;
+  border: 1px solid #ccc;
+}
+
+.button1:hover
+{
+	background-color: #e87c1b;
+	border: 1px solid #e87c1b;
+	color: white;
+}
+
+.loc1 
+{
+  box-shadow: 0 8px 16px 0 rgba(232,124,27,1);
+  transition: 0.3s;
+  width: 27%;
+  position: absolute;
+  left: 900px;
+  top: 100px;
+}
+
+.container 
+{
+  padding: 2px 16px;
+  font-size: 30px;
+  color: #e87c1b;
+}
+
+.loc2 
+{
+  box-shadow: 0 8px 16px 0 rgba(255,166,0,1);
+  transition: 0.3s;
+  width: 27%;
+  position: absolute;
+  left: 900px;
+  top: 330px;
+  font-size: 30px;
+}
+
+.container2 
+{
+  padding: 2px 16px;
+  font-size: 30px;
+	color: #ffa600;
+}
+
+.loc3 
+{
+  box-shadow: 0 8px 16px 0 rgba(255,0,4,1);
+  transition: 0.3s;
+  width: 27%;
+  position: absolute;
+  left: 900px;
+  top: 560px;
+  font-size: 30px;
+}
+
+.container3 
+{
+  padding: 2px 16px;
+  font-size: 30px;
+  color: #ff0004;
+}

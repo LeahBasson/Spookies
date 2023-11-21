@@ -1,0 +1,209 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+	max-width: 1366px;
+	margin: auto;
+	height: auto;
+	font-family: Arial;
+}
+
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: repeat (9,1fr);
+}
+
+.Banner img
+{
+	width: 100%;
+}
+
+.ContentOne
+{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 1366px;
+	height: 1100px;
+	margin: auto;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.ContentOne h1
+{
+	font-size: 22px;
+	text-align: center;
+	position: absolute;
+	top: 40px;
+}
+
+.Image1 img
+{
+	position: absolute;
+	top: 240px;
+	left: 0px;
+}
+
+.Image1 :hover
+{
+	position: absolute;
+	top: 220px;
+}
+
+.Flavour1
+{
+	position: absolute;
+	top: 570px;
+	left: 95px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}
+
+.Image2 img
+{
+	position: absolute;
+	top: 240px;
+	left: 370px;
+}
+
+.Image2 :hover
+{
+	position: absolute;
+	top: 220px;
+}
+
+.Flavour2
+{
+	position: absolute;
+	top: 570px;
+	left: 460px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}
+
+.Image3 img
+{
+	position: absolute;
+	top: 240px;
+	left: 730px;
+}
+
+.Image3 :hover
+{
+	position: absolute;
+	top: 220px;
+}
+
+.Flavour3
+{
+	position: absolute;
+	top: 570px;
+	left: 820px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}
+
+.Image4 img
+{
+	position: absolute;
+	top: 240px;
+	left: 1080px;
+}
+
+.Image4 :hover
+{
+	position: absolute;
+	top: 220px;
+}
+
+.Flavour4
+{
+	position: absolute;
+	top: 570px;
+	left: 1170px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}
+
+.Image5 img
+{
+	position: absolute;
+	top: 640px;
+	left: 0px;
+}
+
+.Image5 :hover
+{
+	position: absolute;
+	top: 620px;
+}
+
+.Flavour5
+{
+	position: absolute;
+	top: 970px;
+	left: 85px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}
+
+.Image6 img
+{
+	position: absolute;
+	top: 620px;
+	left: 370px;
+	width: 21%;
+}
+
+.Image6 :hover
+{
+	position: absolute;
+	top: 600px;
+}
+
+.Flavour6
+{
+	position: absolute;
+	top: 970px;
+	left: 420px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}
+
+.Image7 img
+{
+	position: absolute;
+	top: 650px;
+	left: 730px;
+}
+
+.Image7 :hover
+{
+	position: absolute;
+	top: 620px;
+}
+
+.Flavour7
+{
+	position: absolute;
+	top: 970px;
+	left: 790px;
+	font-size: 30px;
+	font-weight: bold;
+	color: #e63538;
+}

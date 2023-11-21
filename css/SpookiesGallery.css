@@ -1,0 +1,110 @@
+* 
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body
+{
+	max-width: 1366px;
+	margin: auto;
+	height: auto;
+	font-family: Arial;
+}
+
+.grid-container 
+{
+  display: grid;
+  grid-template-columns: repeat (9,1fr);
+}
+
+.ContentOne
+{
+	display: flex;
+	justify-content: center;
+	position: relative;
+	align-items: center;
+	grid-column: 1/-1;
+	width: 1366px;
+	height: 2072px;
+	margin: auto;
+	background-color: white;
+	margin-top: 20px;
+}
+
+.Image1 img
+{
+	width: 50%;
+	position: absolute;
+	top: 10px;
+	left: 0px;
+	border-radius: 25px;
+	border: 12px solid #fff200;
+}
+
+.Camera1 img
+{
+	width: 14%;
+	position: absolute;
+	top: 140px;
+	left: 960px;
+	rotate: 30deg;
+}
+
+.Image2 img
+{
+	width: 50%;
+	position: absolute;
+	top: 500px;
+	left: 660px;
+	border-radius: 25px;
+	border: 12px solid #e63538;
+}
+
+.Camera2 img
+{
+	width: 14%;
+	position: absolute;
+	top: 630px;
+	left: 90px;
+	rotate: -30deg;
+}
+
+.Image3 img
+{
+	width: 50%;
+	position: absolute;
+	top: 1060px;
+	left: 0px;
+	border-radius: 25px;
+	border: 12px solid #fff200;
+}
+
+.Camera3 img
+{
+	width: 14%;
+	position: absolute;
+	top: 1200px;
+	left: 960px;
+	rotate: 30deg;
+}
+
+.Image4 img
+{
+	width: 50%;
+	position: absolute;
+	top: 1630px;
+	left: 660px;
+	border-radius: 25px;
+	border: 12px solid #e63538;
+}
+
+.Camera4 img
+{
+	width: 14%;
+	position: absolute;
+	top: 1780px;
+	left: 90px;
+	rotate: -30deg;
+}
